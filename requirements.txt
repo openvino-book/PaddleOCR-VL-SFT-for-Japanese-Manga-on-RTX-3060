@@ -1,0 +1,15 @@
+# PaddleOCR-VL Fine-tuning Dependencies
+# Install PyTorch separately: pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+# Core ML
+transformers>=4.40.0
+accelerate>=0.27.0
+
+# Data processing
+pandas>=2.0.0
+pillow>=10.0.0
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+
+# Evaluation
+editdistance>=0.6.0
