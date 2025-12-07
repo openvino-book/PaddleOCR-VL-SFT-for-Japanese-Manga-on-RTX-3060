@@ -2,12 +2,16 @@
 
 [English](#english) | [中文](#中文)
 
+| Image | Prediction | Training on RTX-3060
+|---|---|---|
+| ![ex2](./02.png) | あとは『メルニィ<br>宇宙鉄道』とか<br>『TipTap』とか<br>全部その人が<br>考えたらしい |![train](./train.png) |
+
 ---
 
 <a name="english"></a>
 ## English
 
-Fine-tune [PaddleOCR-VL](https://huggingface.co/PaddlePaddle/PaddleOCR-VL) on the [Manga109s](http://www.manga109.org/en/index.html) dataset for Japanese manga text recognition.
+Fine-tune [PaddleOCR-VL](https://huggingface.co/PaddlePaddle/PaddleOCR-VL) on the [Manga109s](http://www.manga109.org/en/index.html) dataset for Japanese manga text recognition using an **RTX 3060 (12 GB)**, based on the [PaddleOCR-VL-For-Manga](https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga) project.
 
 ### 🎯 Results
 
@@ -137,7 +141,8 @@ Edit `train.sh` to modify epochs, learning rate, batch size, etc.
 <a name="中文"></a>
 ## 中文
 
-在 [Manga109s](http://www.manga109.org/en/index.html) 数据集上微调 [PaddleOCR-VL](https://huggingface.co/PaddlePaddle/PaddleOCR-VL)，用于日文漫画文字识别。
+将 [PaddleOCR-VL](https://huggingface.co/PaddlePaddle/PaddleOCR-VL) 基于 [Manga109s](http://www.manga109.org/en/index.html) 数据集进行微调，用于日语漫画文本识别，并使用 **RTX 3060（12GB）** 进行训练，项目参考自 [PaddleOCR-VL-For-Manga](https://huggingface.co/jzhang533/PaddleOCR-VL-For-Manga)。
+
 
 ### 🎯 训练效果
 
