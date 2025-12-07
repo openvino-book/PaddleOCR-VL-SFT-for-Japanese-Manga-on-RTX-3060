@@ -64,11 +64,19 @@ cp .env.example .env
 python prepare_manga109_data.py
 ```
 
+<p align="center">
+  <img src="prepare_manga109_data.png" alt="prepare_manga109_data">
+</p>
+
+
 #### 3. Train
 
 ```bash
 bash train.sh
 ```
+<p align="center">
+  <img src="train.png" alt="train" >
+</p>
 
 Training takes approximately **27 hours** on RTX 3060.
 
